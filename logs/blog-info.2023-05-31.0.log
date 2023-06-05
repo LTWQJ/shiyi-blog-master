@@ -1,0 +1,388 @@
+2023-05-31 03:00:00.017 [quartzScheduler_Worker-5] ERROR com.shiyi.quartz.AbstractQuartzJob:44 - 任务执行异常  - ：
+java.lang.NoSuchMethodException: com.shiyi.quartz.BlogQuartz.autoTagsClickVolume()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at com.shiyi.quartz.JobInvokeUtil.invokeMethod(JobInvokeUtil.java:60)
+	at com.shiyi.quartz.JobInvokeUtil.invokeMethod(JobInvokeUtil.java:33)
+	at com.shiyi.quartz.QuartzDisallowConcurrentExecution.doExecute(QuartzDisallowConcurrentExecution.java:14)
+	at com.shiyi.quartz.AbstractQuartzJob.execute(AbstractQuartzJob.java:41)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2023-05-31 16:06:55.454 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:1
+2023-05-31 16:07:15.251 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:2
+2023-05-31 16:07:45.355 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:08:15.350 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:08:45.379 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:08:51.079 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:3
+2023-05-31 16:09:12.507 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:4
+2023-05-31 16:09:42.612 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:10:12.681 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:10:14.428 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:5
+2023-05-31 16:10:44.534 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:11:14.495 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:11:44.529 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:12:14.503 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:12:45.228 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:13:15.227 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:13:45.230 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:14:18.313 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:14:48.516 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:15:18.829 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:15:48.992 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:16:19.278 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:16:48.467 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:17:18.646 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:18:43.248 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:19:43.241 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:20:43.241 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:21:43.234 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:22:43.257 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:23:43.248 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:24:43.254 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:25:43.247 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:26:43.244 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:26:51.616 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:4
+2023-05-31 16:26:51.617 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:3
+2023-05-31 16:26:51.741 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:2
+2023-05-31 16:26:51.830 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:1
+2023-05-31 16:26:51.853 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:0
+2023-05-31 16:26:54.975 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:1
+2023-05-31 16:27:25.118 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:27:55.110 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:28:25.110 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:28:55.110 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:29:25.116 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:29:55.111 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:30:25.119 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:30:55.120 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:31:25.109 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:31:55.150 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:32:25.116 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:32:55.109 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:33:25.111 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:33:55.140 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:34:25.115 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:34:55.110 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:35:25.113 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:35:55.115 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:36:25.110 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:36:55.111 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:37:25.111 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:37:55.116 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:38:25.138 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:38:55.109 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:39:25.120 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:39:55.109 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:40:25.111 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:40:55.118 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:41:25.109 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:41:55.111 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:42:25.207 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:42:55.118 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:43:22.629 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:2
+2023-05-31 16:43:52.846 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:44:22.824 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:44:42.587 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:3
+2023-05-31 16:45:12.769 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:45:42.759 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:46:12.761 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:46:42.757 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:47:12.766 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:47:42.760 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:48:12.756 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:48:42.758 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:49:12.765 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:49:42.763 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:50:12.762 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:50:42.765 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:51:12.765 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:51:42.758 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:52:12.758 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:52:42.765 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:53:12.765 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:53:42.759 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:54:12.772 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:54:42.766 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:55:12.828 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:55:42.762 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:56:12.794 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:56:42.757 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:57:12.757 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:57:42.763 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:58:12.764 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:58:42.756 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:59:12.760 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 16:59:42.790 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:00:12.757 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:00:42.762 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:01:12.759 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:01:42.767 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:02:12.756 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:02:42.758 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:03:12.770 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:03:42.757 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:04:12.761 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:04:42.760 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:05:12.757 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:05:42.757 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:06:12.758 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:06:42.773 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:07:12.758 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:07:42.768 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:08:12.761 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:08:42.770 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:09:12.757 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:09:42.767 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:10:12.776 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:10:42.761 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:11:12.757 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:11:42.767 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:12:12.756 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:12:42.759 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:13:12.798 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:13:42.757 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:14:12.783 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:14:42.761 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:15:12.763 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:15:42.759 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:16:12.756 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:16:42.759 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:17:12.758 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:17:42.756 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:18:12.764 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:18:42.764 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:19:12.760 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:19:42.778 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:20:12.783 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:20:42.757 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:21:12.757 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:21:42.760 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:22:12.758 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:22:42.760 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:23:12.759 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:23:42.764 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:24:12.760 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:24:42.758 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:25:12.760 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:25:42.758 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:26:12.759 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:26:42.763 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:27:12.763 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:27:42.757 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:28:12.773 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:28:42.763 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:29:12.759 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:29:42.756 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:30:12.759 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:30:42.756 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:31:12.756 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:31:42.759 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:32:12.773 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:32:42.758 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:33:12.763 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:33:42.760 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:34:12.756 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:34:42.756 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:35:12.759 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:35:42.764 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:36:12.819 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:36:14.748 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:4
+2023-05-31 17:36:45.016 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:37:15.060 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:37:19.726 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:3
+2023-05-31 17:37:19.728 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:2
+2023-05-31 17:37:19.818 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:1
+2023-05-31 17:37:19.823 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:0
+2023-05-31 17:37:24.274 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:1
+2023-05-31 17:37:55.232 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:38:25.254 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:38:55.227 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:39:25.223 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:39:55.228 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:40:29.491 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:40:57.858 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:41:27.211 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:41:58.356 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:42:27.086 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:43:43.229 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:44:43.229 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:45:43.238 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:46:43.235 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:47:43.245 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:48:43.240 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:49:43.233 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:50:43.255 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:51:43.234 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:52:43.228 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:53:43.239 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:54:43.234 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:55:43.231 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:56:43.241 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:57:43.231 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:58:43.238 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 17:59:43.241 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:00:43.233 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:01:43.238 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:02:43.247 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:03:43.236 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:04:43.233 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:05:43.228 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:06:43.242 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:07:43.232 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:08:43.239 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:09:43.235 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 18:09:50.018 [http-nio-8800-exec-9] ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase:175 - No error handling configured for [com.shiyi.service.impl.OnlineSocketServiceImpl] and the following error occurred
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1231)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1141)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:75)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:183)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:162)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:156)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-31 19:04:09.731 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:0
+2023-05-31 19:07:15.897 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:1
+2023-05-31 19:07:46.244 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:08:16.235 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:08:46.226 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:09:16.283 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:09:53.308 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:10:18.209 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:10:48.215 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:11:18.221 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:11:48.224 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:12:06.820 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:2
+2023-05-31 19:12:06.900 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:3
+2023-05-31 19:12:38.214 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:12:38.213 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:12:38.480 [http-nio-8800-exec-9] ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase:175 - No error handling configured for [com.shiyi.service.impl.OnlineSocketServiceImpl] and the following error occurred
+java.lang.IllegalStateException: The remote endpoint was in state [TEXT_FULL_WRITING] which is an invalid state for called method
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.checkState(WsRemoteEndpointImplBase.java:1258)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine.textStart(WsRemoteEndpointImplBase.java:1220)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendStringByCompletion(WsRemoteEndpointImplBase.java:210)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendStringByFuture(WsRemoteEndpointImplBase.java:198)
+	at org.apache.tomcat.websocket.WsRemoteEndpointAsync.sendText(WsRemoteEndpointAsync.java:53)
+	at com.shiyi.service.impl.OnlineSocketServiceImpl.onMessage(OnlineSocketServiceImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor194.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBase.onMessage(PojoMessageHandlerWholeBase.java:80)
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:415)
+	at org.apache.tomcat.websocket.server.WsFrameServer.sendMessageText(WsFrameServer.java:129)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:515)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:301)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:133)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:85)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:183)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:162)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:156)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-31 19:12:38.524 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:2
+2023-05-31 19:13:08.212 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:13:38.215 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:14:08.211 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:14:43.239 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:15:43.248 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:16:43.302 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:17:43.250 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:18:43.231 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:19:08.220 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:19:43.237 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:20:43.240 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:21:43.226 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 19:22:16.448 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:1
+2023-05-31 19:22:16.622 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:0
+2023-05-31 20:30:09.923 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:44 - 有链接加入，当前人数为:1
+2023-05-31 20:30:41.261 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:31:11.229 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:31:41.249 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:32:11.248 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:32:41.236 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:33:11.241 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:33:41.239 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:34:13.727 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:34:43.387 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:35:13.198 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:35:44.781 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:36:13.314 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:36:43.232 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:37:43.246 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:38:43.252 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:39:43.241 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:40:43.237 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:41:43.244 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:42:43.266 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:43:43.250 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:44:43.253 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:45:43.298 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:46:43.234 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:47:43.236 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:48:43.252 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:49:43.245 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:50:43.235 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:51:43.242 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:52:43.240 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:53:43.258 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:54:43.233 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:55:43.249 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:56:43.236 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:57:43.280 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:58:43.273 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 20:59:43.240 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:00:43.254 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:01:43.243 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:02:43.239 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:03:43.250 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:04:43.238 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:05:43.245 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:06:43.252 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:07:43.251 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:08:43.244 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:09:43.231 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:10:43.235 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:11:43.235 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:12:43.247 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:13:43.252 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:14:43.242 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:15:43.258 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:16:43.240 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:17:43.246 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:18:43.251 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:19:43.241 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:20:43.245 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:21:43.244 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:22:43.240 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:23:43.242 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:24:43.247 [http-nio-8800-exec-7] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:25:20.292 [http-nio-8800-exec-3] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:25:41.260 [http-nio-8800-exec-6] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:26:11.263 [http-nio-8800-exec-1] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:26:41.251 [http-nio-8800-exec-2] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:27:11.250 [http-nio-8800-exec-5] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:27:49.216 [http-nio-8800-exec-8] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:28:14.394 [http-nio-8800-exec-10] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:28:45.212 [http-nio-8800-exec-4] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:59 - 来自客户端的消息:ping
+2023-05-31 21:30:17.209 [http-nio-8800-exec-9] INFO  com.shiyi.service.impl.OnlineSocketServiceImpl:54 - 有链接关闭,当前人数为:0
+2023-05-31 22:29:52.223 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-31 22:29:57.485 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'threadPoolTaskExecutor'
+2023-05-31 22:29:57.548 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:845 - Shutting down Quartz Scheduler
+2023-05-31 22:29:57.549 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-31 22:29:57.549 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-31 22:29:57.713 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-31 22:30:00.847 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2029 - {dataSource-1} closing ...
+2023-05-31 22:30:01.229 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:2101 - {dataSource-1} closed

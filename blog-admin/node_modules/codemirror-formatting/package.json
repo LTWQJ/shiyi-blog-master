@@ -1,0 +1,26 @@
+{
+  "name": "codemirror-formatting",
+  "version": "1.0.0",
+  "description": "Codemirror formatting addon http://codemirror.net/2/demo/formatting.html",
+  "main": "formatting.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artf/codemirror-formatting.git"
+  },
+  "keywords": [
+    "codemirror",
+    "formatting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artf/codemirror-formatting/issues"
+  },
+  "homepage": "https://github.com/artf/codemirror-formatting#readme"
+}

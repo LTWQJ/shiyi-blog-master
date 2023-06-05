@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyi.mapper.WebNavMapper">
+
+    <select id="selectPageRecord" resultType="com.shiyi.entity.WebNavigation">
+        select a.id,a.title,a.web_img,a.web_url,a.createdate,a.desicription,a.update from b_websitenavigation a
+        left join (select id, category_name webnav_category from b_webnav_category  GROUP BY id)b  on a.webnav_catg_id = b.id
+        <where>
+            <if test="title != null">
+                a.title like concat('%',#{title},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,128 @@
+server:
+  port: 8800
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  application:
+    name: shiyiblog
+  datasource:
+    url: jdbc:mysql://localhost:3306/blogltw?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ltw123
+    type: com.alibaba.druid.pool.DruidDataSource
+    initial-size: 10
+    max-active: 150
+    min-idle: 10
+    max-wait: 5000
+    pool-prepared-statements: false
+    validation-query: SELECT 1
+    validation-query-timeout: 500
+    test-on-borrow: false
+    test-on-return: false
+    test-while-idle: true
+    time-between-eviction-runs-millis: 60000
+    min-evictable-idle-time-millis: 30000
+    filters: stat,wall,log4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  elasticsearch:
+    rest:
+      uris: localhost:8800
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 5000
+    password:
+
+#==============================IP限流次数和时间配置==============================
+IpLimit:
+  #请求次数
+  count: 10
+  #请求时间
+  time: 10
+
+#==============================线程池配置==============================
+task:
+  executor:
+    core_pool_size: 10
+    max_pool_size: 200
+    queue_capacity: 1200
+    keep_alive_seconds: 60
+
+#==============================Sa-Token配置==============================
+sa-token:
+  # token名称 (同时也是cookie名称)
+  token-name: Authorization
+  # token有效期，单位s 默认30天, -1代表永不过期
+  timeout: 3600
+  # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+  activity-timeout: -1
+  # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
+  is-concurrent: true
+  # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
+  is-share: false
+  # token风格
+  token-style: uuid
+  # 是否输出操作日志
+  is-log: false
+
+#==============================mybatis-plus配置==============================
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.shiyi.entity
+  global-config:
+    # 数据库相关配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      #字段策略 IGNORED:"忽略判断",NOT_NULL:"非 NULL 判断"),NOT_EMPTY:"非空判断"
+      field-strategy: not_empty
+      #驼峰下划线转换
+      column-underline: true
+      db-type: mysql
+    #刷新mapper 调试神器
+    refresh: true
+  # 原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+  logging:
+    level: warn
+
+#==============================knife4j配置=======================================
+knife4j:
+  # 开启增强配置
+  enable: true
+  basic:
+    enable: true
+    # Basic认证用户名
+    username: admin
+    # Basic认证密码
+    password: admin2022
+
+#============================第三方登录配置信息===================================
+qq:
+  app-id: 101995894
+  check-token-url: https://graph.qq.com/oauth2.0/me?access_token={access_token}
+  user-info-url: https://graph.qq.com/user/get_user_info?openid={openid}&access_token={access_token}&oauth_consumer_key={oauth_consumer_key}
+weibo:
+  app-id: 2285022919
+  app-secret: a380fef0743e38cad12125902b204fab
+  grant-type: authorization_code
+  redirect-url: http://www.litianwen.top/callback/weibo
+  access-token-url: https://api.weibo.com/oauth2/access_token
+  user-info-url: https://api.weibo.com/2/users/show.json?uid={uid}&access_token={access_token}
+gitee:
+  app-id: d029020a6839273e0e82d853783874bf1f4f34b95da6ebcbc230e6603ff9b656
+  app-secret: e94dfa5baaa5ac896bd01d077d742020504910a0a4c974a83d40d51a0d8377b8
+  grant-type: authorization_code
+  redirect-url: http://www.www.litianwen.top/callback/gitee
+  access-token-url: https://gitee.com/oauth/token
+  user-info-url: https://gitee.com/api/v5/user?access_token={access_token}
+baidu:
+  url: http://data.zz.baidu.com/urls?site=www.www.litianwen.top&token=aw5iVpNEB9aQJOYZ
+file:
+  upload-folder: /ltw/img/

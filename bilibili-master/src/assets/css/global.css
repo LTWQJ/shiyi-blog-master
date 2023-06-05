@@ -1,0 +1,160 @@
+/* @import './fontscss.css'; */
+/** https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=2495242 */
+@import url(//at.alicdn.com/t/font_2495242_ni2vselsdk.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* 最小宽度 */
+  /* min-width: 1300px; */
+}
+ul {
+  padding: 0;
+}
+li {
+  display: inline-block;
+  list-style: none;
+}
+a {
+  /* 鼠标变小手 */
+  cursor: pointer;
+  text-decoration: none;
+  color: #212121;
+}
+img {
+  cursor: pointer;
+}
+
+.min_width {
+  /* 最小宽度 */
+  min-width: 1100px;
+}
+/* navbar */
+.el-button--info.is-plain {
+  color: #505050;
+  background: #e7e7e7;
+  border: none;
+}
+/* input输入框 */
+.el-input__inner {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* navbar搜索按钮的选中颜色 */
+.el-button--info.is-plain:focus, .el-button--info.is-plain:hover {
+  background: #f4f4f5;
+  color: #2999d9;
+}
+/* navbar 消息提示多少个的样式 */
+.el-badge__content.is-fixed {
+  top: -2px;
+  right: 5px;
+}
+.message-item-spot .el-badge__content.is-fixed {
+  top: 10px;
+  right: 10px;
+}
+.el-badge__content {
+  background-color: #fa5a57;
+  border: none;
+  padding: 0 3px;
+  height: 16px;
+  line-height: 16px;
+  min-width: 16px;
+}
+
+/* 热搜每行的li */
+.el-scrollbar__view li {
+  display: block !important;
+  width: 100%;
+}
+
+/* tab栏 */
+.el-tabs__nav {
+  display: flex;
+  width: 100%;
+}
+.el-tabs__item {
+  flex: 1;
+  text-align: center;
+}
+
+/* 搜索按钮 */
+.el-button--search {
+  background: #00a1d6;
+  color: #fff;
+}
+.el-button:focus, .el-button--search:hover {
+  color: #fff;
+  background: #00b5e5;
+}
+
+/* 折叠版下面的边框 */
+.el-collapse-item__wrap {
+  border: 0;
+}
+.el-collapse-item__header {
+  border: 0;
+}
+.el-collapse-item__content {
+  padding-bottom: 15px;
+}
+/* 搜索折叠版的分区 */
+.partition-item .el-radio-button__inner {
+  margin-right: 0;
+  padding: 7px 10px;
+}
+
+/* 分区点击的弹出框 */
+.partition-item-i .el-radio-button__inner {
+  padding: 0;
+  margin-right: 5px;
+}
+.el-radio-button__orig-radio:checked+ .el-radio-button__inner {
+  padding: 7px 5px!important;
+}
+/* 新加的类 分区对话框的padding */
+.partition-popover {
+  padding: 4px;
+}
+.partition-popover[x-placement^=bottom] {
+  margin-top: 15px;
+}
+
+/* 选择的按钮 */
+.el-radio-button__orig-radio:checked+ .el-radio-button__inner {
+  background: #00a1d6;
+  padding: 5px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.el-radio-button:first-child .el-radio-button__inner {
+  border: 0;
+}
+
+.el-radio-button__inner {
+  margin-right: 10px;
+  border: 0;
+}
+
+/* 分割线 */
+.el-divider--horizontal {
+  margin: 8px 0;
+}
+
+/* 分页激活按钮的颜色 */
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background: #00a1d6;
+}
+
